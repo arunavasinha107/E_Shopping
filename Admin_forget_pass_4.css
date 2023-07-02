@@ -1,0 +1,69 @@
+  html {
+        font-size: 62.5%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }        
+    
+    /* footer styling */
+    
+
+    .footer{
+        background-color: rgb(14, 1, 1);
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer i {
+        padding-left: 3rem;
+        padding-bottom: 1.6rem;
+        color: white;
+    }
+
+    .footer p {
+        font-size: 2rem;
+        color: white;
+    }
+
+    /* forget password */
+    .forget {
+        background-color: #C0EEC0;
+        height: 86%;
+    }
+    .backtologin{
+        color: rgb(3, 48, 247);
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: white;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }
+    table {
+        padding: 8rem;;
+    }
+    td {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+        padding: 0.3rem;
+    }
+    td input {
+        border-radius: 2rem;;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    textarea {
+        border-radius: 2rem;
+        height: 9rem;
+        width: 18rem;
+
+    }

@@ -1,0 +1,164 @@
+   html {
+        font-size: 62.5%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }        
+    header {
+        background-color: black;
+    }
+
+    .navbar {
+        font-size: 2rem;
+        display: flex;
+        padding-left: 6rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        text-transform: uppercase;
+    }
+
+    .navbar .logo .first{
+        color: red;
+    }
+
+    .navbar .logo .second {
+        color: yellow;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar ul li {
+        border: 2px soid white;
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 8rem;
+        border-bottom: none;
+    }
+
+    .navbar ul li a {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .navbar ul li input {
+        padding: 0.5rem;
+        border-radius: 1em;
+    }
+
+    .navbar ul li a:hover {
+        color: red;
+    }
+
+    /* footer styling */
+    
+
+    .footer{
+        background-color: rgb(14, 1, 1);
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer i {
+        padding-left: 3rem;
+        padding-bottom: 1.6rem;
+        color: white;
+    }
+
+    .footer p {
+        font-size: 2rem;
+        color: white;
+    }
+
+    /*add,update and delete operation*/
+    .add_update_delete {
+        background-color: #C0EEC0;
+        display:flex;
+        height: 70%;
+    }
+    .Add_item{
+        color: rgb(3, 48, 247);
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: red;
+        margin-top: 4rem;
+        margin-left: 50rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        text-align: center;
+    }
+    .Update_item{
+        color: rgb(3, 48, 247);
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: red;
+        margin-top: 4rem;
+        margin-left: 50rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }
+    .Multiple_update{
+        color: rgb(3, 48, 247);
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: red;
+        margin-top: 4rem;
+        margin-left: 50rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }
+    .Delete_item{
+        color: rgb(3, 48, 247);
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: red;
+        margin-top: 4rem;
+        margin-left: 50rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }
+    table {
+        padding: 8rem;;
+    }
+    td {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+        padding: 0.3rem;
+    }
+    td input {
+        border-radius: 2rem;;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    textarea {
+        border-radius: 2rem;
+        height: 9rem;
+        width: 18rem;
+
+    }

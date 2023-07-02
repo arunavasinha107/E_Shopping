@@ -1,0 +1,131 @@
+
+    /* Header styling */
+        
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;;
+    }        
+    header {
+        background-color: black;
+    }
+
+    .navbar {
+        font-size: 2rem;
+        display: flex;
+        padding-left: 6rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        text-transform: uppercase;
+    }
+
+    .navbar .logo .first{
+        color: red;
+    }
+
+    .navbar .logo .second {
+        color: yellow;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 8rem;
+    }
+
+    .navbar ul li a {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .navbar ul li input {
+        padding: 0.5rem;
+        border-radius: 1em;
+    }
+
+    .navbar ul li a:hover{
+        color: red;
+    }
+
+    /*hero styling*/
+
+    .heros {
+        background-color: whitesmoke;
+        padding: 10rem 19rem;
+    }
+
+    .heros .main-hero {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 6rem;
+    }
+
+    .heros .text {
+        display: flex;
+        font-size: medium;
+        align-items:center;
+        margin-left: 7rem;
+    }
+    .heros .text a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .hero-image img{
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .addtocart input {
+        font-size: 2rem;
+        background-color: rgb(2, 7, 57);
+        border-radius: 2rem;
+        color: white;
+        padding: 1rem;
+        margin-top: 15rem;
+        margin-left: 5rem;
+    }
+    .addtocart input:hover {
+        color: yellow;
+    }
+
+    form 
+
+    /* footer styling */
+    
+
+    .footer{
+        background-color: rgb(52, 3, 3);
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer i {
+        padding-left: 3rem;
+        padding-bottom: 1.6rem;
+        color: white;
+    }
+
+    .footer p {
+        font-size: 2rem;
+        color: white;
+    }

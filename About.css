@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Rubik+Dirt&display=swap');
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;;
+    }        
+    header {
+        background-image:url("https://th.bing.com/th/id/OIP.H0iozpmp6HtuCxEJzz3jGQHaHa?pid=ImgDet&w=800&h=800&rs=1");
+         background-size:cover;
+    }
+
+    .navbar {
+        font-size: 2rem;
+        display: flex;
+        padding-left: 6rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        text-transform: uppercase;
+    }
+
+    .navbar .logo .first{
+        color: red;
+    }
+
+    .navbar .logo .second {
+        color: yellow;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar ul li {
+        border: 2px soid white;
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 8rem;
+        border-bottom: none;
+    }
+
+    .navbar ul li a {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .navbar ul li input {
+        padding: 0.5rem;
+        border-radius: 1em;
+    }
+
+    .navbar ul li a:hover {
+        color: red;
+    }
+    .container{
+         background-image:url("https://th.bing.com/th/id/OIP.H0iozpmp6HtuCxEJzz3jGQHaHa?pid=ImgDet&w=800&h=800&rs=1");
+         background-size:cover;
+         height:100%;
+         width:100%;
+         display:flex;
+         flex-direction:row;
+    }
+    
+    .container img{
+        height:43rem;
+        width:56rem;
+        padding-left:1.6rem;
+        padding-right: 2rem;
+    }
+    .container h1{
+        font-family:"Lato";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-size:2rem;
+        color:powderblue;
+        padding-left:10rem;
+       
+    }
+    .container h2{
+        font-size: 2.5rem;
+        font-family:"Lato";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        padding-left: 2rem;
+    }
+    .paragraph {
+        font-family:"Roboto";
+        font-size:3rem;
+        color:black;
+        padding-left:27rem;
+        padding-top:2px;
+    }
+    .paragraph h1{
+       padding-left:22rem;
+       font-family:Salma Alfasans;
+       
+    }
+    .paragraph p{
+        padding-left:3rem;
+        font-family:"Lato";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        
+    }
+    body{
+            background-color:#f3f6fd ;
+            font-size: 11.5px;
+            font-weight: bold;
+            color: rgb(189, 196, 203);
+        }
+        .footer{
+        background-color:black;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer i {
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+    .social-media-links a{
+        padding:2rem;
+        text-decoration:none;
+    }
+    .fa {
+  padding: 1rem;
+  font-size: 30px;
+  width: 50px;
+  text-align:left;
+  text-decoration:none;
+  
+}
+
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: black;
+  color:white;
+}
+
+.fa-twitter {
+  background:black;
+  color: white;
+}
+
+.fa-instagram {
+  background:black;
+  color: white;
+}
